@@ -102,6 +102,7 @@ export const Register = ({ onRegister }) => {
                   required
                   className="mt-1 block w-full px-4 py-3 md:py-4 md:text-2xl border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                   placeholder="you@example.com"
+                  autoComplete="new-password"
                 />
               </div>
 
@@ -122,6 +123,7 @@ export const Register = ({ onRegister }) => {
                   required
                   className="mt-1 block w-full px-4 py-3 md:py-4 md:text-2xl border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                   placeholder="••••••••"
+                  autoComplete="new-password"
                 />
               </div>
 

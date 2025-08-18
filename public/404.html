@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // GitHub Pages redirect script
+      (function() {
+        var l = window.location;
+        // Build the new URL by removing the filename (404.html) and appending the path
+        var newUrl = l.protocol + "//" + l.host + l.pathname.replace(/404\.html$/, "") + l.search + l.hash;
+        // Redirect to index.html inside the repo
+        window.location.replace(newUrl);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

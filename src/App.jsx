@@ -22,7 +22,7 @@ export const App = () => {
           {/* <Form /> */}
 
       
-        <BrowserRouter>
+        <BrowserRouter basename="/mission">
           <Routes>
           <Route path="/" element={<Navbar />}>
            <Route path="/login" element={<Login />} />

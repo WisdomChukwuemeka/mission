@@ -62,9 +62,7 @@ export const Register = ({ onRegister }) => {
         error.response?.data?.email?.[0] ||
           error.response?.data?.password?.[0] ||
           error.response?.data?.confirm_password?.[0] ||
-          error.response?.data?.non_field_errors?.[0] ||
-          "An unexpected error occurred. Please try again."
-      );
+          error.response?.data?.non_field_errors?.[0]      );
       setTimeout(() => setError(""), 3000);
     } finally {
       setLoading(false);
